@@ -31,7 +31,9 @@ export default class TechnologyAccordion extends Component {
       <Accordion fluid>
         <Accordion.Title active={activeIndex === 0} index={0} onClick={this.handleClick}>
           <Icon name='dropdown' />
+          <span>
           Programming Language
+            </span>
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 0}>
           <List>
